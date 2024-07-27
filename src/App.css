@@ -1,0 +1,47 @@
+/* src/App.css */
+
+.App {
+  position: relative;
+  overflow: hidden;
+  height: 100vh; /* Full viewport height */
+  margin: 0;
+}
+
+.App-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the whole screen */
+  z-index: -1; /* Place behind other content */
+}
+
+.App-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1; /* Place above the video */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  position: relative;
+  height: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+/* src/App.css */
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
